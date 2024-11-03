@@ -1,0 +1,33 @@
+div {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    place-items: center;
+}
+    
+.title {
+    grid-area: 1 / 1 / 2 / 2; 
+    font-size: 1.3vh;
+    
+}
+.home {
+    grid-area: 2 / 1 / 4 / 2;
+}
+.adven {
+    grid-area: 3 / 1 / 5 / 2;
+}
+.todo {
+    grid-area: 4 / 1 / 6 / 2;
+}
+.user {
+    grid-area: 7 / 1 / 8 / 2;
+}
+.config {
+    grid-area: 8 / 1 / 9 / 2;
+}
+.logout {
+    grid-area: 9 / 1 / 10 / 2;
+}

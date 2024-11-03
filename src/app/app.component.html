@@ -1,8 +1,11 @@
 <section>
-  <h1>Hola angular desde {{ ciudad.toUpperCase() }}</h1>
-  <!-- Componente creado para probar, hay que importarlo -->
-  <!-- <app-componente-prueba></app-componente-prueba>  -->
-  <app-componente-prueba apellidos="Gomez" /> 
+  <div class="menu">
+    <app-lateral-menu />
+  </div>
+  <div class="body">
+    <app-to-do/> 
+  </div>
+
 </section>
 
 <router-outlet />
