@@ -3,7 +3,6 @@
 }
 
 .fondo{
-    background-color: darkgrey;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -12,11 +11,17 @@
     grid-row-gap: 1em;
 }
 
-.search{
+.search, .listaTareas, .tareaIndividual{
     background-color: grey;
     border-radius: 20px;
     margin: 1em 1em 0em 1em;
     grid-area: 1 / 1 / 1 / -1; 
+    padding: 1.5rem;
+}
+
+/* TODO: borrar Temporal */
+.search p, .listaTareas p, .tareaIndividual p{
+    position: absolute;
 }
 
 
