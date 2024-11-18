@@ -1,0 +1,26 @@
+input{
+    background-color: #3e454d;
+    height: 4rem;
+    border-radius: 30px;
+    padding: 1rem;
+    border: 2px solid #021526;
+}
+
+#buscar{
+    width: 75%;
+    color: #3e454d;
+}
+
+.botonSuperior{
+    width: 7.5%;
+    font-size: 1rem;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #crear{
+    margin-left: 30%;
+} */
