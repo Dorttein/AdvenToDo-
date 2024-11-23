@@ -3,7 +3,7 @@
     border-radius: 7px;
     margin: 0 -1rem 0 -1rem;
     margin-top: 1rem;
-    box-shadow: 5px 7px 10px #02152670;
+    box-shadow: 2px 6px 10px #02152670;
     background-color: #3e454d;
     height: 4.2rem;
     padding: 0.4rem 1rem 0.4rem 1rem;
@@ -13,6 +13,12 @@
 
 .title{
     margin-left: 1.5rem;
+    width: 65%;
+}
+
+.puntos{
+    float: right;
+    color: yellow;
 }
 
 .fecha{
@@ -24,7 +30,6 @@
 .checkbox-wrapper {
     box-sizing: border-box;
     --checkbox-height: 2rem;
-    
 }
 
 @-moz-keyframes dothabottomcheck {

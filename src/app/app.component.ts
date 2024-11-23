@@ -7,7 +7,7 @@ import { LateralMenuComponent } from './lateral-menu/lateral-menu.component';
 @Component({ //Afecta a las clases de debajo.
 	selector: 'app-root', // Etiqueta que va a usar el componente en el index.html
 	standalone: true, // Si queremos usar componentes tendremos que importarlos por estar en true
-	imports: [RouterOutlet, ComponentePruebaComponent, ToDoComponent, LateralMenuComponent], //Hace falta importar los nuevos componentes que queramos usar
+	imports: [RouterOutlet, ToDoComponent, LateralMenuComponent], //Hace falta importar los nuevos componentes que queramos usar
 	templateUrl: './app.component.html', //Lo que renderiza
 	/* Alternativa no siempre recomendable pero puede venir bien en algunos casos:
 		template: `

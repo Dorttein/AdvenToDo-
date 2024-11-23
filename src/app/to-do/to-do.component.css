@@ -30,6 +30,11 @@
     border-radius: 20px;
     margin: 0em 0em 1em 1em;
     grid-area: 2 / 1 / -1 / 1; 
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;    
+    box-sizing: border-box;
 }
 
 .tareaIndividual{

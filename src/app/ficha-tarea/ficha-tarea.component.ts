@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class FichaTareaComponent {
   @Input() uniqueId: number = 0;
+  @Input() puntos: number = 0;
   @Input() title: string = '';
   @Input() fecha: string = '';
 }

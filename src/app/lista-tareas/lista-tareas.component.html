@@ -1,10 +1,13 @@
-<h1>ToDo</h1>
-<hr>
+<div class="lista-tareas">
+	<h1>ToDo</h1>
+	<hr>
 
-@for (ficha of fichas; track $index) {
-    <app-ficha-tarea 
-      [uniqueId]="$index"
-      [title]="ficha.title" 
-      [fecha]="ficha.fecha">
-    </app-ficha-tarea>
-}
+	@for (ficha of fichas; track $index) {
+		<app-ficha-tarea 
+			[uniqueId]="$index"
+			[title]="ficha.title" 
+			[puntos]="ficha.puntos" 
+			[fecha]="ficha.fecha">
+		</app-ficha-tarea>
+	}
+</div>

@@ -10,9 +10,17 @@ import { FichaTareaComponent } from "../ficha-tarea/ficha-tarea.component";
 })
 export class ListaTareasComponent {
   fichas = [
-    { title: 'Fecha Cumpeaños', fecha: '18/02/2002' },
-    { title: 'Felicitar Juan', fecha: '18/02/2002' },
-    { title: 'Otra tarea', fecha: '18/02/2002' },
-    { title: 'Otra tarea', fecha: '18/02/2002' }
+    { title: 'Fecha Cumpeaños', puntos: 5, fecha: '18/02/2002' },
+    { title: 'Felicitar Juan', puntos: 2, fecha: '18/02/2002' },
+    { title: 'Otra tarea', puntos: 1, fecha: '18/02/2002' },
+    { title: 'Otra tarea', puntos: 3, fecha: '18/02/2002' },
+    { title: 'Fecha Cumpeaños', puntos: 5, fecha: '18/02/2002' },
+    { title: 'Felicitar Juan', puntos: 2, fecha: '18/02/2002' },
+    { title: 'Otra tarea', puntos: 1, fecha: '18/02/2002' },
+    { title: 'Otra tarea', puntos: 3, fecha: '18/02/2002' },
+    { title: 'Fecha Cumpeaños', puntos: 5, fecha: '18/02/2002' },
+    { title: 'Felicitar Juan', puntos: 2, fecha: '18/02/2002' },
+    { title: 'Otra tarea', puntos: 1, fecha: '18/02/2002' },
+    { title: 'Otra tarea', puntos: 3, fecha: '18/02/2002' },
   ];
 }
