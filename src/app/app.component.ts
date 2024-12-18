@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ComponentePruebaComponent } from './componente-prueba/componente-prueba.component'; //Aquí tambien es necesario importarlo, pero lo hace automatico
 import { ToDoComponent } from './to-do/to-do.component';
 import { LateralMenuComponent } from './lateral-menu/lateral-menu.component';
 
